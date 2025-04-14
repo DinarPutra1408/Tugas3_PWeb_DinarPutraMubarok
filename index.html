@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Dinar Putra Mubarok</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header ID -->
+    <header id="header-utama">
+        <div class="logo">
+            <img src="AvatarDinar.png" alt="Foto Profil">
+            <h3>Dinar Putra Mubarok</h3>
+        </div>
+        <nav id="navigasi-utama">
+            <a href="#bagian-utama">Beranda</a>
+            <a href="#proyek">Proyek</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- Konten Utama -->
+    <div class="container">
+        <!-- Bagian Utama -->
+        <section id="bagian-utama">
+            <div class="teks-utama">
+                <h2>Halo, Saya Dinar</h2>
+                <p>Web Developer dari Surabaya dengan pengalaman lebih dari 1 tahun dalam pengembangan web, desain UI/UX, dan pemasaran digital.</p>
+                <p>Mahir dalam Java, HTML, CSS, JavaScript, dan Figma.</p>
+                
+                <a href="https://drive.google.com/file/d/1Xxvm76QwBLFILoTjrzXAhdBXsK0Zl63P/view?usp=sharing" class="tombol tombol-primer">Unduh CV</a>
+                <a href="#proyek" class="tombol tombol-sekunder">Lihat Proyek</a>
+            </div>
+            <div class="gambar-utama">
+                <img id="foto-profil" src="DinarProfile.png" alt="Foto Dinar">
+            </div>
+        </section>
+
+        <!-- Bagian Proyek  -->
+        <section id="proyek">
+            <h2>Proyek Saya</h2>
+            
+            <div class="proyek" id="proyek-tracknesia">
+                <img src="TracknesiaApps.png" alt="Proyek Tracknesia">
+            </div>
+            
+            <div class="proyek" id="proyek-pazarin">
+                <video controls>
+                    <source src="VidioPazarin.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <!-- Bagian Kontak dengan ID -->
+        <section id="kontak">
+            <h2>Hubungi Saya</h2>
+            <form id="form-kontak">
+                <input type="text" placeholder="Nama Anda" required>
+                <input type="email" placeholder="Email Anda" required>
+                <textarea rows="5" placeholder="Pesan Anda" required></textarea>
+                <button type="submit" class="tombol tombol-primer">Kirim Pesan</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer dengan ID -->
+    <footer id="footer-utama">
+        <p>&copy; 2025 Dinar Putra Mubarok</p>
+    </footer>
+</body>
+</html>
